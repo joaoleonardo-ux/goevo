@@ -10258,7 +10258,7 @@ function scmFichaPrePedido_validaRegraDeAprovacaoCc(codPre){
 	
 	var oDados = tpParam.SendFormPost('WSGETCONS')
 	
-	if (oDados.errorcode == "00") {
+	/*if (oDados.errorcode == "00") {
 		aData = ajustaraData(oDados);
 		if (aData.length > 1) {
             // pega o valor do primeiro item
@@ -10273,7 +10273,7 @@ function scmFichaPrePedido_validaRegraDeAprovacaoCc(codPre){
                 bootbox.alert('Os centros de custos  não podem ser  diferentes entre os itens!')
             }
         }
-	}
+	}*/
 	
 	return geraPedido
 }
